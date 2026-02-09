@@ -1,0 +1,44 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f5f5; /* Light background */
+  color: #222; /* Dark text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-box {
+  text-align: center;
+}
+
+h1, h2, p {
+  color: #222; /* Safe dark text */
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #6a5acd, #00bfff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.typing {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #6a5acd;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.socials a {
+  font-size: 24px;
+  margin: 10px;
+  color: #6a5acd;
+}

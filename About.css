@@ -1,0 +1,9 @@
+.about-box {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(255,255,255,0.05);
+  padding: 30px;
+  border-radius: 10px;
+  border-left: 4px solid #00eaff;
+  font-size: 18px;
+}

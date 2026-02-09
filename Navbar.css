@@ -1,0 +1,49 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var(--secondary-bg);   /* ✅ Uses theme variable */
+  backdrop-filter: blur(10px);
+
+  z-index: 100;
+  transition: 0.3s;
+}
+
+.logo {
+  color: var(--text-color);
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-color); /* ✅ Text will be visible in both themes */
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--accent);
+}
+
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 26px;
+  cursor: pointer;
+  color: var(--text-color); /* ❗ Important */
+  transition: 0.3s;
+}
+
+.theme-btn:hover {
+  transform: scale(1.2);
+}

@@ -1,0 +1,21 @@
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 280px;
+  padding: 25px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  transition: 0.3s;
+  border: 1px solid transparent;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  border-color: #00eaff;
+  box-shadow: 0 0 15px #00eaff;
+}

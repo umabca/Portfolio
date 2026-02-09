@@ -1,0 +1,20 @@
+.skills-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-chip {
+  padding: 12px 22px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  border: 1px solid #00eaff;
+  transition: 0.3s;
+}
+
+.skill-chip:hover {
+  transform: scale(1.1);
+  background: #00eaff;
+  color: black;
+}
