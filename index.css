@@ -1,0 +1,15 @@
+:root {
+  --text-color: #fff;
+  --bg-color: #0d0d0d;
+  --secondary-bg: #1a1a1a;
+  --accent: #00eaff;
+  --card-bg: rgba(255,255,255,0.05);
+}
+
+.light {
+  --text-color: #111;
+  --bg-color: #fafafa;
+  --secondary-bg: #ffffff;
+  --accent: #0077ff;
+  --card-bg: #ffffff;
+}
